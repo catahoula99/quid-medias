@@ -217,3 +217,7 @@ details.card .astuce { background: var(--moutarde); color: var(--ink); border-ra
 details.card .astuce h5, details.card .astuce p { color: var(--ink) !important; margin-top: 0; }
 details.card ol { padding-left: 20px; margin: 0; } details.card li { margin-bottom: 6px; }
 .grid { align-items: start; }
+
+/* En-tête : on garde le logo et le menu, on masque les éléments par défaut d'Odoo */
+header#top .o_searchbar_form, header#top .o_search_btn, header#top a[href^="tel:"],
+header#top a[href="/web/login"], header#top a[href="/contactus"] { display: none !important; }
