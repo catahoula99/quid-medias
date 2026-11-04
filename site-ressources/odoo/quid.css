@@ -1,0 +1,219 @@
+:root {
+  --bordeaux: #6D2239; --prune: #933451; --tomate: #FA450E; --ciel: #B7D9FF;
+  --rose: #FFB8B8; --moutarde: #D9C767; --creme: #F8EEE5; --trait: rgb(109 34 57 / .13);
+  --ombre: 0 22px 44px -22px rgb(42 13 22 / .45);
+  --ink: #2a0d16; --muted: #6b4a53; --card: #fffaf5;
+}
+* { box-sizing: border-box; }
+
+
+a { color: inherit; }
+img { max-width: 100%; }
+.wrap { max-width: 1160px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+.title { font: 800 clamp(34px, 5.5vw, 60px)/1 "Bricolage Grotesque", sans-serif; letter-spacing: -.04em; margin: 0; }
+.eyebrow { font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: 13px; color: var(--prune); }
+.hand { font-family: "Shantell Sans", cursive; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 999px; border: 1px solid transparent; font-weight: 700; text-decoration: none; background: var(--moutarde); color: var(--ink); transition: transform .15s, box-shadow .15s; }
+.btn:hover { transform: translateY(-2px); box-shadow: var(--ombre); }
+.btn.ghost { background: transparent; color: var(--creme); border-color: var(--creme); }
+.btn.ghost:hover { background: rgb(255 255 255 / .1); }
+
+/* Navigation */
+
+
+
+
+
+
+
+/* Accroche */
+.hero { background: var(--bordeaux); color: var(--creme); overflow: hidden; }
+.hero .wrap { display: grid; grid-template-columns: 1.3fr .7fr; align-items: end; gap: 24px; padding-top: 56px; }
+.hero .eyebrow { color: var(--rose); }
+.hero h1 { font: 800 clamp(44px, 8vw, 92px)/.95 "Bricolage Grotesque", sans-serif; letter-spacing: -.045em; margin: 14px 0 22px; }
+.hero h1 em { font-style: normal; color: var(--moutarde); }
+.hero p { font-size: 19px; max-width: 40ch; color: #f3dfe4; margin: 0 0 30px; }
+.hero .ctas { display: flex; flex-wrap: wrap; gap: 12px; padding-bottom: 64px; }
+.hero .perso { width: 100%; max-width: 330px; justify-self: center; display: block; margin-bottom: -6px; }
+
+/* Le but */
+.but { padding: 88px 0; }
+.but .wrap { display: grid; grid-template-columns: .9fr 1.1fr; gap: 48px; align-items: start; }
+.but .lead { font-size: 21px; line-height: 1.5; margin: 0 0 28px; }
+.but .lead strong { color: var(--bordeaux); }
+.promesses { display: grid; gap: 12px; }
+.promesse { display: flex; gap: 14px; align-items: flex-start; background: var(--card); border: 1px solid var(--trait); border-radius: 18px; padding: 16px 18px; }
+.promesse b { display: block; font: 800 20px "Bricolage Grotesque"; letter-spacing: -.03em; }
+.promesse span { color: var(--muted); }
+.promesse .pastille { flex: none; width: 38px; height: 38px; border-radius: 50%;  display: grid; place-items: center; font-weight: 700; }
+.but .note { color: var(--prune); font-size: 18px; transform: rotate(-2deg); display: inline-block; margin-top: 18px; }
+
+/* Parcours en 3 étapes */
+.parcours { padding: 0 0 96px; }
+.parcours header { text-align: center; margin-bottom: 36px; }
+.parcours header p { color: var(--muted); font-size: 18px; margin: 12px 0 0; }
+.etapes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.etape { position: relative;  border-radius: 26px; padding: 26px 24px 0; text-decoration: none; display: flex; flex-direction: column; overflow: hidden; min-height: 400px; transition: transform .18s, box-shadow .18s; }
+.etape:hover { transform: translateY(-4px) rotate(-.6deg); box-shadow: var(--ombre); }
+.etape .num { font: 800 15px Figtree; letter-spacing: .1em; }
+.etape h3 { font: 800 44px/1 "Bricolage Grotesque"; letter-spacing: -.045em; margin: 10px 0 4px; }
+.etape .verbe { font-size: 20px; margin-bottom: 10px; }
+.etape p { margin: 0; }
+.etape .go { font-weight: 700; margin-top: 14px; }
+.etape img { width: 170px; margin: auto auto -4px; display: block; padding-top: 14px; }
+.e1 { background: var(--rose); } .e2 { background: var(--ciel); } .e3 { background: var(--moutarde); }
+
+/* Sections de contenu */
+.partie { padding: 80px 0; border-top: 1px solid var(--trait); }
+.partie.alt { background: #f3e4d6; }
+.partie-head { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; justify-content: space-between; margin-bottom: 36px; }
+.partie-head > div { max-width: 640px; }
+.partie-head p { color: var(--muted); font-size: 18px; margin: 14px 0 0; }
+.partie-head img { width: 120px; }
+.sous { font: 700 13px Figtree; letter-spacing: .14em; text-transform: uppercase; margin: 40px 0 16px; display: flex; align-items: center; gap: 12px; }
+.sous::after { content: ""; flex: 1; height: 1px; background: var(--trait); }
+.sous:first-of-type { margin-top: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
+
+.card { position: relative; background: var(--card); border: 1px solid var(--trait); border-radius: 22px; overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: transform .18s, box-shadow .18s; cursor: pointer; text-align: left; font: inherit; color: inherit; padding: 0; width: 100%; }
+a.card:hover, button.card:hover { transform: translateY(-3px) rotate(-.4deg); box-shadow: var(--ombre); }
+.card:focus-visible { outline: 3px solid var(--tomate); outline-offset: 3px; }
+.card img { width: 100%; display: block; border-bottom: 1px solid var(--trait); aspect-ratio: 4/5; object-fit: cover; }
+.card .body { padding: 18px 20px 20px; display: flex; flex-direction: column; flex: 1; }
+.card h4 { font: 800 24px/1.05 "Bricolage Grotesque", sans-serif; letter-spacing: -.04em; margin: 12px 0 8px; }
+.card p { margin: 0; color: var(--muted); }
+.card .meta { margin-top: auto; padding-top: 14px; font-weight: 700; font-size: 14px; color: var(--prune); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag { display: inline-flex; gap: 6px; align-items: center; font: 700 12px Figtree; letter-spacing: .08em; text-transform: uppercase; padding: 4px 10px; border-radius: 999px;  background: var(--creme); }
+.t-pdf { background: var(--rose); } .t-fiche { background: var(--moutarde); } .t-lien, .t-notion { background: var(--ciel); } .t-canva { background: var(--rose); } .t-exercice { background: var(--moutarde); }
+.t-premium { background: var(--tomate); color: #fff; } .t-duree { background: transparent; }
+.card.fiche { background: var(--bordeaux); color: var(--creme); }
+.card.fiche p { color: #f0d6dd; } .card.fiche .meta { color: var(--moutarde); }
+.card.fiche blockquote { margin: 14px 0 0; color: var(--moutarde); font-size: 15px; }
+.card .host { font-size: 13px; color: var(--muted); margin-top: auto; padding-top: 12px; }
+.card.bientot { cursor: default; border-style: dashed; background: transparent; }
+.card.bientot h4, .card.bientot p { opacity: .65; }
+.card .done { position: absolute; top: 14px; right: 14px; font: 700 12px Figtree; background: var(--ink); color: var(--creme); padding: 4px 10px; border-radius: 999px; }
+
+/* Fenêtre (fiche / exercice) */
+dialog { border: 1px solid var(--trait); border-radius: 26px; padding: 0; max-width: 640px; width: calc(100% - 32px); max-height: calc(100% - 32px); background: var(--creme); color: var(--ink); }
+dialog::backdrop { background: rgb(42 13 22 / .55); }
+.dlg-head { background: var(--bordeaux); color: var(--creme); padding: 26px 70px 24px 28px; position: relative; }
+.dlg-head.ex { background: var(--moutarde); color: var(--ink); }
+.dlg-head h2 { font: 800 clamp(30px, 6vw, 42px)/1 "Bricolage Grotesque"; letter-spacing: -.04em; margin: 12px 0 0; }
+.close { position: absolute; top: 14px; right: 14px; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid currentColor; background: transparent; color: inherit; font-size: 22px; cursor: pointer; }
+.dlg-body { padding: 24px 28px 30px; }
+.block { margin-bottom: 22px; }
+.block h3 { font: 700 12px Figtree; letter-spacing: .14em; text-transform: uppercase; color: var(--prune); margin: 0 0 8px; }
+.block p { margin: 0; font-size: 17px; }
+.block.image p { font-family: "Shantell Sans", cursive; font-size: 19px; color: var(--bordeaux); }
+.block.astuce { background: var(--moutarde);  border-radius: 18px; padding: 16px 18px; margin: 0; }
+.block.astuce h3 { color: var(--ink); }
+.block ol { margin: 0; padding-left: 22px; font-size: 17px; } .block li { margin-bottom: 8px; }
+.check { display: flex; gap: 12px; align-items: center; padding: 10px 14px; border: 1px solid var(--trait); border-radius: 14px; margin-bottom: 8px; background: var(--card); cursor: pointer; }
+.check input { width: 20px; height: 20px; accent-color: var(--bordeaux); }
+.check:has(input:checked) { background: var(--moutarde); }
+.check:has(input:checked) span { text-decoration: line-through; }
+
+/* Pied de page */
+footer { background: var(--bordeaux); color: var(--creme); padding: 72px 0 40px; text-align: center; }
+footer .title { max-width: 16ch; margin: 0 auto 14px; }
+footer p { color: #f0d6dd; font-size: 18px; margin: 0 0 28px; }
+footer .logo { width: 110px; margin-top: 56px; opacity: .9; }
+
+@media (max-width: 860px) {
+  .hero .wrap, .but .wrap { grid-template-columns: 1fr; }
+  .hero .wrap { padding-top: 40px; }
+  .hero .ctas { padding-bottom: 8px; }
+  .hero .perso { max-width: 200px; }
+  .but { padding: 64px 0; } .but .wrap { gap: 28px; }
+  .etapes { grid-template-columns: 1fr; }
+  .etape { min-height: 0; }
+  .etape img { width: 120px; position: absolute; right: 12px; bottom: -4px; }
+  .etape .go { padding-bottom: 26px; }
+  .etape > div { padding-right: 110px; }
+  .partie { padding: 64px 0; }
+  .partie-head img { display: none; }
+}
+@media (max-width: 560px) {
+  nav ul a { padding: 8px 7px; font-size: 14px; }
+  nav img { height: 24px; }
+  .etape > div { padding-right: 0; }
+  .etape img { position: static; margin: 0 0 -4px auto; }
+  .etape .go { padding-bottom: 0; }
+}
+
+/* Pages intérieures */
+
+.bandeau {  overflow: hidden; }
+.bandeau .wrap { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding-top: 48px; }
+.bandeau .texte { padding-bottom: 48px; max-width: 640px; }
+.bandeau .retour { display: inline-block; font-weight: 700; font-size: 14px; text-decoration: none; margin-bottom: 22px; }
+.bandeau .retour:hover { text-decoration: underline; }
+.bandeau h1 { font: 800 clamp(48px, 8vw, 88px)/.95 "Bricolage Grotesque", sans-serif; letter-spacing: -.045em; margin: 10px 0 6px; }
+.bandeau .verbe { font-size: 22px; margin-bottom: 14px; }
+.bandeau p { font-size: 18px; margin: 0; }
+.bandeau img { width: 220px; display: block; margin-bottom: -6px; }
+.bandeau.e1 { background: var(--rose); } .bandeau.e2 { background: var(--ciel); } .bandeau.e3 { background: var(--moutarde); }
+.contenu { padding: 56px 0 88px; }
+.suite { border-top: 1px solid var(--trait); padding: 48px 0; }
+.suite .wrap { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+.suite .title { font-size: clamp(28px, 4vw, 40px); }
+@media (max-width: 640px) {
+  .bandeau .wrap { padding-top: 32px; }
+  .bandeau .texte { padding-bottom: 32px; }
+  .bandeau img { width: 110px; }
+}
+
+/* Cahiers A4 */
+.t-cahier { background: var(--moutarde); }
+.grid.cahiers { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); align-items: start; }
+.card.cahier img { aspect-ratio: 210 / 297; }
+.card.cahier.bientot { min-height: 200px; }
+
+/* Cartes : ombre douce au repos plutôt que contour */
+.card, .promesse, .check { box-shadow: 0 1px 2px rgb(42 13 22 / .05); }
+.card.bientot { box-shadow: none; border: 1.5px dashed rgb(109 34 57 / .25); }
+.tag { background: rgb(255 255 255 / .55); }
+.t-pdf, .t-canva { background: var(--rose); } .t-fiche, .t-exercice, .t-cahier { background: var(--moutarde); } .t-lien, .t-notion { background: var(--ciel); }
+.t-premium { background: var(--tomate); } .t-duree { background: rgb(109 34 57 / .08); }
+.card.fiche .tag.t-duree { background: rgb(255 255 255 / .15); }
+
+/* ── Réglages propres à Odoo ───────────────────────────── */
+#wrapwrap { background: var(--creme); color: var(--ink); font-family: Figtree, system-ui, sans-serif; }
+.quid { font: 16px/1.55 Figtree, system-ui, sans-serif; color: var(--ink); background: var(--creme); }
+.quid h1, .quid h2, .quid h3, .quid h4, .quid h5 { color: inherit; }
+.quid p { margin-bottom: 0; }
+.quid a { text-decoration: none; }
+.quid .hero, .quid .hero a.btn.ghost { color: var(--creme); }
+.quid .bandeau { color: var(--ink); }
+.quid .card h4 { color: inherit; }
+
+/* En-tête Odoo aux couleurs Quid? */
+header#top, header#top .navbar, header#top nav { background: var(--bordeaux) !important; border: 0 !important; box-shadow: none !important; }
+header#top .nav-link, header#top a, header#top .o_header_language_selector, header#top button { color: var(--creme) !important; font-family: Figtree, sans-serif; font-weight: 600; }
+header#top .nav-link.active, header#top .nav-link:hover { background: var(--creme); color: var(--bordeaux) !important; border-radius: 999px; }
+header#top .navbar-brand img { max-height: 34px; }
+header#top .btn-primary { background: var(--moutarde) !important; color: var(--ink) !important; border: 0; border-radius: 999px; }
+
+/* Pied de page : celui de Quid? remplace celui d'Odoo */
+#footer { display: none !important; }
+.quid-pied { background: var(--bordeaux); color: var(--creme); padding: 72px 0 40px; text-align: center; }
+.quid-pied .title { max-width: 16ch; margin: 0 auto 14px; color: var(--creme); }
+.quid-pied p { color: #f0d6dd; font-size: 18px; margin: 0 0 28px !important; }
+.quid-pied .logo { width: 110px; margin-top: 56px; opacity: .9; }
+
+/* Fiches et exercices dépliables */
+details.card { cursor: default; }
+details.card > summary { list-style: none; cursor: pointer; }
+details.card > summary::-webkit-details-marker { display: none; }
+details.card[open] { box-shadow: var(--ombre); }
+details.card[open] .meta { display: none; }
+details.card .ouvert { padding: 0 20px 22px; }
+details.card .ouvert h5 { font: 700 12px Figtree; letter-spacing: .14em; text-transform: uppercase; margin: 16px 0 6px; color: var(--prune); }
+details.card.fiche .ouvert h5 { color: var(--rose); }
+details.card.fiche .ouvert p { color: var(--creme); }
+details.card .astuce { background: var(--moutarde); color: var(--ink); border-radius: 16px; padding: 12px 14px; margin-top: 14px; }
+details.card .astuce h5, details.card .astuce p { color: var(--ink) !important; margin-top: 0; }
+details.card ol { padding-left: 20px; margin: 0; } details.card li { margin-bottom: 6px; }
+.grid { align-items: start; }
