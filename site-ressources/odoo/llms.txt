@@ -1,0 +1,44 @@
+# Quid?
+
+> Quid? est un compte Instagram et LinkedIn (@quid_conseilcomm) qui explique les grandes notions de la communication et du marketing avec des métaphores du quotidien, sans jargon. Ce site rassemble ses ressources gratuites, en français : des cahiers d'exercices A4 à imprimer, des fiches notions, des exercices pratiques et une sélection d'outils. Public visé : indépendants, petites entreprises et toute personne qui gère sa communication sans être du métier.
+
+Toutes les ressources sont gratuites et libres d'accès. Chaque notion est expliquée par une image simple (par exemple : le tone of voice, « c'est ta voix au téléphone : on te reconnaît avant même que tu dises ton prénom »), puis appliquée à sa propre marque avec des exercices.
+
+## Pages du site
+
+- [Accueil](https://quid-conseil-en-communication.odoo.com/): présentation de Quid? et du parcours en 3 étapes (comprendre, s'équiper, agir).
+- [Théorie](https://quid-conseil-en-communication.odoo.com/theorie): les cahiers de comm' en PDF, les carrousels en PDF et les fiches notions.
+- [Outils](https://quid-conseil-en-communication.odoo.com/outils): modèles Canva et Notion à dupliquer, et une sélection de sites gratuits pour la communication.
+- [Exercices](https://quid-conseil-en-communication.odoo.com/exercices): exercices courts, étape par étape, avec checklist, à faire sur sa propre marque.
+
+## Cahiers de comm' (PDF A4, leçon + exercices + corrigés)
+
+- [Cahier n°1 · Le tone of voice](https://quid-conseil-en-communication.odoo.com/web/content/407/quid-cahier-01-tone-of-voice.pdf): trouver la voix de sa marque. Les 4 curseurs du ton, un exemple « même info, 3 tons » et 6 exercices.
+- [Cahier n°2 · Le persona](https://quid-conseil-en-communication.odoo.com/web/content/408/quid-cahier-02-persona.pdf): dessiner le portrait de son client idéal. Cible ou persona, fiche d'identité, journée-type, carte postale.
+- [Cahier n°3 · Le positionnement](https://quid-conseil-en-communication.odoo.com/web/content/409/quid-cahier-03-positionnement.pdf): pourquoi on te choisit toi, et pas le voisin. Analyse des concurrents, carte de positionnement, phrase de positionnement.
+- [Cahier n°4 · Le storytelling](https://quid-conseil-en-communication.odoo.com/web/content/410/quid-cahier-04-storytelling.pdf): raconter sa marque comme une recette. Les 4 ingrédients d'une histoire, fiche recette, mini storyboard.
+
+## Carrousels en PDF
+
+- [Le positionnement](https://quid-conseil-en-communication.odoo.com/web/content/411/quid-positionnement.pdf): la notion de base avant de poster quoi que ce soit.
+- [Le storytelling, expliqué avec une recette](https://quid-conseil-en-communication.odoo.com/web/content/412/quid-storytelling.pdf): personnage, problème, transformation, et un modèle de phrase.
+- [Même info, 3 tons](https://quid-conseil-en-communication.odoo.com/web/content/413/quid-trois-tons.pdf): une même annonce réécrite dans trois tons de marque.
+
+## Fiches notions (sur la page Théorie)
+
+- Le tone of voice : la personnalité de ta marque quand elle parle.
+- Le persona : le portrait de la personne à qui tu parles vraiment.
+- La ligne éditoriale : les règles du jeu de ce que tu publies, comme la carte d'un restaurant.
+- Le call-to-action : la petite phrase qui dit quoi faire après avoir lu.
+- Le taux d'engagement : le chiffre qui dit si ton contenu fait vraiment réagir.
+
+## Exercices (sur la page Exercices)
+
+- Trouve tes 3 adjectifs (15 min) : la base de ton ton de marque.
+- Le test du logo caché (10 min) : est-ce qu'on te reconnaît sans ton nom ?
+- Ta recette en une phrase (20 min) : le storytelling de ta marque résumé en une phrase.
+
+## Optional
+
+- [Instagram @quid_conseilcomm](https://www.instagram.com/quid_conseilcomm/): une notion par semaine, en carrousels et en Reels.
+- Prochainement : cahier n°5 sur la ligne éditoriale, modèle Notion de calendrier éditorial, modèles Canva de carrousels.
